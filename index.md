@@ -42,5 +42,5 @@ Led my bachelor’s final-year ML project using **SSD MobileNet** for real-time 
 
 ## Contact
 Email: **ankitavyas1999@gmail.com**  
-LinkedIn: **https://www.linkedin.com/in/ankita-vyas-08776618b**  
+LinkedIn: **https://www.linkedin.com/in/ankitavyas77**  
 GitHub: **https://github.com/AnkitaVyas77**
