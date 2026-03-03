@@ -1,8 +1,4 @@
 ---
-layout: default
-title: " "
----
-
 # About
 I’m a thesis-based Master’s student at **McGill University**, graduating **May–June 2026**, with **3 years of industry experience** building large-scale **data pipelines, ETL workflows, and reporting systems**, plus research experience building reliable ML workflows for **pattern discovery and validation**. I’m currently looking for my next **industry role** where I can combine strong software fundamentals with data-driven impact.  
 [More about me](about.md) • [Projects](projects.md)
@@ -42,7 +38,6 @@ Led my bachelor’s final-year ML project using **SSD MobileNet** for real-time 
 ### Professional Skills
 **Analytical Thinking**, **Data Storytelling**, **Business & Technical Communication**, **Adaptability**, **Collaborative Leadership**
 
-## Contact
 ## Contact
 Email: [ankitavyas1999@gmail.com](mailto:ankitavyas1999@gmail.com)  
 LinkedIn: [https://www.linkedin.com/in/ankitavyas77](https://www.linkedin.com/in/ankitavyas77)  
