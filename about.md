@@ -10,4 +10,4 @@ In my thesis, I focus on extracting statistically reliable patterns from large D
 
 To make findings trustworthy and scalable, I built an automated **pattern validator tool** using a domain-specific language and **model-to-text code generation** that produces **Java validators**. I tend to lean toward logically correct solutions, keep my perspectives open to new evidence, and avoid bias in decision-making.
 
-I’m actively looking for roles in **data engineering, data science, product analytics, and applied ML**, and I’m open to varied domains where data quality, automation, and measurable impact matter. Outside of work and research, I enjoy connecting with people, sharing knowledge, and learning from different perspectives.
+I’m actively looking for roles in **data engineering, data science, AI agent, and applied ML**, and I’m open to varied domains where data quality, automation, and measurable impact matter. Outside of work and research, I enjoy connecting with people, sharing knowledge, and learning from different perspectives.
