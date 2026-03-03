@@ -4,10 +4,10 @@ I’m a thesis-based Master’s student at **McGill University**, graduating **M
 [More about me](about.md) • [Projects](projects.md)
 
 ## What I can do
-- Build scalable **ETL and data pipelines** using **Python, SQL, Spark, Hive**
-- Turn messy datasets into structured insights using **embeddings, clustering, and data mining**
-- Design **automation and validation workflows** to make results **trustworthy and reproducible**
-- Explore data problems and tailor solutions with new ideas, because I believe **every dataset is unique**
+- Build scalable **ETL and data pipelines**.
+- Turn messy datasets into structured insights.
+- Design **automation and validation workflows** to make results **trustworthy and reproducible**.
+- Explore data problems and tailor solutions with new ideas, because I believe **every dataset is unique**.
 
 ## Featured work
 
