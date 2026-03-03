@@ -1,6 +1,3 @@
-# Ankita Vyas  
-**Data Solutions Developer | Data Engineering | Data Science | ML Automation | AI Agents & LLM Applications**
-
 ## About
 I’m a thesis-based Master’s student at **McGill University**, graduating **May–June 2026**, with **3 years of industry experience** building large-scale **data pipelines, ETL workflows, and reporting systems**, plus research experience building reliable ML workflows for **pattern discovery and validation**. I’m currently looking for my next **industry role** where I can combine strong software fundamentals with data-driven impact.  
 [More about me](about.md) • [Projects](projects.md)
