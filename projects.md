@@ -1,6 +1,6 @@
 # Projects
 
-Below are selected projects that show my experience across data engineering, applied ML, automation, and validation at scale.
+Below are selected projects that show my experience across data engineering, applied ML, automation, and validation at scale. Each project includes a short overview plus a mini case study highlighting key decisions and impact.
 
 ---
 
@@ -29,19 +29,24 @@ One report started missing SLA due to a query against a multi-billion row table.
 - Stabilized production execution and met SLA consistently  
 - Shared a reusable solution that supported other reports relying on the same table  
 
+### Mini case study: Cutting a production ETL query from 3 hours to 30 minutes
+**Context:** A core transformation in an AML report ETL pipeline became too slow due to a multi-billion row table and started missing SLA.  
+**Solution:** I profiled bottlenecks, optimized SQL, aligned with engineers and leadership on constraints, migrated execution from Hive to Spark SQL, and partitioned the workload using intermediate outputs with validation checks.  
+**Impact:** Runtime dropped from **~3 hours to ~30 minutes**, the pipeline stabilized in production, and other report owners reused the same approach.
+
 ### Skills demonstrated
 Data pipeline ownership, stakeholder communication, query performance tuning, distributed processing, production validation, and documentation.
 
 ---
 
-## 2) Pattern Discovery and Pattern Validator Tool (Thesis)
+## 2) Pattern Discovery and Pattern Validator Tool (Master’s Thesis)
 
-**Role:** end-to-end owner (Master's Thesis research)  
+**Role:** End-to-end owner (Master’s thesis research)  
 **Tech:** Python, SBERT embeddings, clustering, LLM prompting, FP-Growth, Xtext, Acceleo, Java  
 **Highlight:** Built a validator system and shifted from hallucination-prone discovery to **100% valid** statistical mining.
 
 ### Overview
-My thesis work focuses on discovering and validating structural patterns in large DevOps datasets. The dataset includes **42k+ DevOps pipeline files**, and the goal is to find patterns that are real, measurable, and scalable to validate.
+My thesis focuses on discovering and validating structural patterns in large DevOps datasets. The dataset includes **42k+ DevOps pipeline files**, and the goal is to find patterns that are real, measurable, and scalable to validate.
 
 ### Initial approach and challenge
 I began by evaluating whether an LLM could discover meaningful patterns when the dataset was provided in a structured form. While outputs looked convincing, I needed a reliable method to validate whether those patterns truly occurred in the dataset.
@@ -66,6 +71,12 @@ After validation showed high hallucination risk in LLM-only discovery, I impleme
 - FP-Growth produced **100% valid** patterns when checked against the dataset  
 - The validator tool generalizes to other model-based datasets once a metamodel is available  
 
+### Mini case study: Measuring LLM hallucination and switching to statistical mining
+**Context:** I tested LLM-based pattern discovery on 42k DevOps pipeline files, but outputs could be convincing while not actually present in the dataset.  
+**What I needed:** An objective way to measure pattern validity and true occurrence, plus a reliable alternative if LLM outputs were not trustworthy enough.  
+**What I did:** I built an automated validator to check true occurrences at scale, used it to evaluate LLM-generated patterns, and then implemented FP-Growth to mine patterns statistically. I validated mined patterns using the same validator for consistency and correctness.  
+**Result:** FP-Growth produced patterns that were consistently valid and supported mining across different occurrence levels. The validator made the workflow measurable, repeatable, and scalable.
+
 ### Skills demonstrated
 LLM evaluation, embeddings and clustering, statistical data mining, scalable validation, DSL design, automated code generation, and reproducible experimentation.
 
@@ -73,7 +84,7 @@ LLM evaluation, embeddings and clustering, statistical data mining, scalable val
 
 ## 3) Road Accident Detection Using Computer Vision
 
-**Role:**  Team lead and contributor (final-year bachelor’s ML project)  
+**Role:** Team lead and contributor (final-year bachelor’s ML project)  
 **Tech:** Python, TensorFlow, OpenCV, SSD MobileNet  
 **Highlight:** Built a working prototype and evaluated detection behavior under real video conditions.
 
