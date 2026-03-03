@@ -41,6 +41,7 @@ Led my bachelor’s final-year ML project using **SSD MobileNet** for real-time 
 **Analytical Thinking**, **Data Storytelling**, **Business & Technical Communication**, **Adaptability**, **Collaborative Leadership**
 
 ## Contact
-Email: **ankitavyas1999@gmail.com**  
-LinkedIn: **https://www.linkedin.com/in/ankitavyas77**  
-GitHub: **https://github.com/AnkitaVyas77**
+## Contact
+Email: [ankitavyas1999@gmail.com](mailto:ankitavyas1999@gmail.com)  
+LinkedIn: [https://www.linkedin.com/in/ankitavyas77](https://www.linkedin.com/in/ankitavyas77)  
+GitHub: [github.com/AnkitaVyas77](https://github.com/AnkitaVyas77)
