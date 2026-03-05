@@ -14,15 +14,15 @@ I’m a research-based Master’s student at **McGill University**, graduating *
 ### 1) AML Reporting Pipelines at American Express
 Owned end-to-end delivery of AML reporting pipelines, including performance optimization and production deployments.  
 **Highlight:** Reduced a critical query runtime from **~3 hours to ~30 minutes** by migrating from **Hive to Spark** and partitioning execution.  
-**Links:** [Project details](projects.md#1-aml-reporting-pipelines-at-american-express) • [Case study](projects.md#mini-case-study-cutting-a-production-etl-query-from-3-hours-to-30-minutes)
+**Links:** [Project details](projects.md#1-anti-money-laundering-data-pipelines-and-reporting-fintech-american-express-072021---072024)
 
 ### 2) Pattern Discovery on Hierarchical YAML Data and Generic Pattern Validator Tool
 Built an end-to-end research pipeline to discover and validate patterns in large hierarchical YAML dataset and conducted tests for **42k+ DevOps pipeline files**, combining **LLM evaluation**, **statistical data mining (FP-Growth)**, and automated occurrence measurement. Developed a **generic pattern validator tool** that scales to large datasets and can be applied to any metamodel-based dataset for reliable, repeatable pattern occurrence checking.  
-**Links:** [Project details](projects.md#2) • [Case study](projects.md#mini-case-study-measuring-llm-hallucination-and-switching-to-statistical-mining)
+**Links:** [Project details](projects.md#2-pattern-discovery-and-pattern-validator-tool-masters-research-mcgill-university-092024---042026) • [Case study](projects.md#mini-case-study-measuring-llm-hallucination-and-switching-to-statistical-mining)
 
 ### 3) Road Accident Detection Using Computer Vision
 Led my bachelor’s final-year ML project using **SSD MobileNet** for real-time accident detection, and published related work in the **International Journal of Mobile Computing Devices**.  
-**Links:** [Project details](projects.md#3-road-accident-detection-using-computer-vision) • [Publication](https://computers.journalspub.info/index.php?journal=JMCD&page=article&op=view&path%5B%5D=693)
+**Links:** [Project details](projects.md#3-road-accident-detection-using-computer-vision-bachelors-final-year-project-mumbai-university-082020---032021) • [Publication](https://computers.journalspub.info/index.php?journal=JMCD&page=article&op=view&path%5B%5D=693)
 
 ## Skills
 
