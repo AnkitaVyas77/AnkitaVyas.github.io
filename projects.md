@@ -46,7 +46,7 @@ Python, SQL scripting, shell scripting, ETL design, Data ingestion pipeline, Big
 **Highlight:** Built a scalable validator system and shifted from hallucination-prone discovery to **100% valid** statistical mining
 
 ### Goal
-Find meaningful patterns in a large DevOps dataset and validate true occurrences at scale in a way that is measurable and trustworthy.
+Discover meaningful patterns in a large hierarchical YAML dataset of DevOps pipelines and validate their true occurrences at scale with a workflow that is measurable, scalable, generic and reliable.
 
 ### Approach A: LLM-based pattern discovery (with grounding)
 - Preprocessed YAML using Python (DFS-style traversal) to normalize structure and remove noise/spacing  
@@ -56,7 +56,7 @@ Find meaningful patterns in a large DevOps dataset and validate true occurrences
 ### Challenge: Validating real occurrence
 Manual scripts were slow to write, and YAML’s hierarchical structure made regex/naive validation error-prone. Python-only validation risked incorrect matches due to indentation and structural nuances.
 
-### Approach B: Automated pattern validation via Language Engineering
+### Approach B: Generic automated pattern validation using Model-Driven Engineering (MDE)
 Because a DevOps metamodel existed (from previous research), I built a model-driven validation workflow:
 - Designed a **domain-specific language (DSL)** in **Eclipse Xtext** to declare patterns over model-based datasets  
 - Used **Acceleo model-to-text transformation** to automatically generate **Java validation scripts** from declared patterns  
