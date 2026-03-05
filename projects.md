@@ -4,9 +4,9 @@ These projects reflect how I approach data problems end to end: understanding th
 
 ---
 
-## 1) American Express AML Data Pipelines and Reporting (Fintech)
+## 1) Anti Money Laundering Data Pipelines and Reporting (Fintech, American Express : 07/2021 - 07/2024)
 
-**Role:** Big Data Developer (3 years) • Owner for 2 major reports  
+**Role:** Big Data Developer (Owner for 2 major reports) 
 **Platform:** On-prem AmEx stack using **Cornerstone** (internal big data platform + central data warehouse) with event-driven **batch processing**  
 **Tools/Tech:** SQL, **HQL**, Hive, Spark, PySpark, Hadoop/HDFS, Unix/Shell, Python, GitHub, Jenkins, PuTTY, Jira, Rally, Confluence  
 **Domains:** Fraud, disputes, risk, customer, merchant (AML investigatory reporting)  
@@ -38,9 +38,9 @@ Python, SQL scripting, shell scripting, ETL design, Data ingestion pipeline, Big
 
 ---
 
-## 2) Pattern Discovery and Pattern Validator Tool (Master’s Thesis, McGill)
+## 2) Pattern Discovery and Pattern Validator Tool (Master’s research, McGill Universtity : 09/2024 - 04/2026)
 
-**Role:** End-to-end owner (thesis research)  
+**Role:** Graduate Research Assistant (End-to-end owner)  
 **Dataset:** **42k DevOps pipeline files** (YAML)  
 **Tools/Tech:** Python, DFS preprocessing, SBERT embeddings, K-Means clustering, OpenAI LLM prompting (RAG-style grounding), FP-Growth, Xtext, Acceleo, Java  
 **Highlight:** Built a scalable validator system and shifted from hallucination-prone discovery to **100% valid** statistical mining
@@ -73,7 +73,7 @@ Java, Python, Data pre-processing, embedding generation, BERT, SBERT, Clustering
 
 ---
 
-## 3) Road Accident Detection Using Computer Vision (Bachelor’s Final Year Project)
+## 3) Road Accident Detection Using Computer Vision (Bachelor’s Final Year Project, Mumbai University : 08/2020 - 03/2021)
 
 **Role:** Team lead and contributor  
 **Tools/Tech:** Python, TensorFlow, OpenCV, **SSD MobileNet**  
