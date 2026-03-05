@@ -1,6 +1,6 @@
 ---
 # About
-I’m a thesis-based Master’s student at **McGill University**, graduating **May–June 2026**, with **3 years of industry experience** building large-scale **data pipelines, ETL workflows, and reporting systems**, plus research experience building reliable ML workflows for **pattern discovery and validation**. I’m currently looking for my next **industry role** where I can combine strong software fundamentals with data-driven impact.  
+I’m a research-based Master’s student at **McGill University**, graduating **May–June 2026**, with **3 years of industry experience** building large-scale **data pipelines, ETL workflows, and reporting systems**. In my research, I build reliable ML workflows for **pattern discovery and validation** and evaluate the **capabilities and limitations of LLMs** for finding patterns in complex datasets. I’m also expanding my skills in **AI agent development** through certifications from **Google and Hugging Face**, and I’m looking for my next **industry role** where I can combine strong software fundamentals and AI with data-driven impact.  
 [More about me](about.md) • [Projects](projects.md)
 
 ## What I can do
@@ -16,8 +16,8 @@ Owned end-to-end delivery of AML reporting pipelines, including performance opti
 **Highlight:** Reduced a critical query runtime from **~3 hours to ~30 minutes** by migrating from **Hive to Spark** and partitioning execution.  
 **Links:** [Project details](projects.md#1-aml-reporting-pipelines-at-american-express) • [Case study](projects.md#mini-case-study-cutting-a-production-etl-query-from-3-hours-to-30-minutes)
 
-### 2) Pattern Discovery and Validation for DevOps Datasets
-Built an end-to-end research pipeline to discover and validate patterns in **42k+ DevOps pipeline files**, combining **LLM evaluation**, **statistical data mining (FP-Growth)**, and a **pattern validator tool** for scalable occurrence checking.  
+### 2) Pattern Discovery on Hierarchical YAML Data and Generic Pattern Validator Tool
+Built an end-to-end research pipeline to discover and validate patterns in large hierarchical YAML dataset and conducted tests for **42k+ DevOps pipeline files**, combining **LLM evaluation**, **statistical data mining (FP-Growth)**, and automated occurrence measurement. Developed a **generic pattern validator tool** that scales to large datasets and can be applied to any metamodel-based dataset for reliable, repeatable pattern occurrence checking.  
 **Links:** [Project details](projects.md#2-pattern-discovery-and-pattern-validator-tool-masters-thesis) • [Case study](projects.md#mini-case-study-measuring-llm-hallucination-and-switching-to-statistical-mining)
 
 ### 3) Road Accident Detection Using Computer Vision
