@@ -18,7 +18,7 @@ Owned end-to-end delivery of AML reporting pipelines, including performance opti
 
 ### 2) Pattern Discovery on Hierarchical YAML Data and Generic Pattern Validator Tool
 Built an end-to-end research pipeline to discover and validate patterns in large hierarchical YAML dataset and conducted tests for **42k+ DevOps pipeline files**, combining **LLM evaluation**, **statistical data mining (FP-Growth)**, and automated occurrence measurement. Developed a **generic pattern validator tool** that scales to large datasets and can be applied to any metamodel-based dataset for reliable, repeatable pattern occurrence checking.  
-**Links:** [Project details](projects.md#2-pattern-discovery-and-pattern-validator-tool-masters-thesis) • [Case study](projects.md#mini-case-study-measuring-llm-hallucination-and-switching-to-statistical-mining)
+**Links:** [Project details](projects.md#2) • [Case study](projects.md#mini-case-study-measuring-llm-hallucination-and-switching-to-statistical-mining)
 
 ### 3) Road Accident Detection Using Computer Vision
 Led my bachelor’s final-year ML project using **SSD MobileNet** for real-time accident detection, and published related work in the **International Journal of Mobile Computing Devices**.  
