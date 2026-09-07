@@ -1,5 +1,3 @@
-# Hi, I'm Ankita 👋
-
 I’m an aspiring **Data & ML Engineer** and recent **M.Sc. graduate from McGill University**, I have worked at the intersection of **data engineering, machine learning, applied AI, and software engineering**. I enjoy taking messy, real-world problems and figuring out how data and technology can turn them into something useful.
 
 Most recently, I worked as a **Lead Data Architect (R&D) with the ReConstruct Initiative at McGill**, where I designed an AWS-based data platform and built an ML-powered cost estimation system for Canadian building retrofit projects. I worked end-to-end—from **S3/Glue/Athena data pipelines and feature engineering to model experimentation, uncertainty estimation, Docker/Django deployment, and CI/CD**. One of my favorite parts was designing the system to keep learning as new retrofit data becomes available.
