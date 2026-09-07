@@ -1,44 +1,120 @@
+# Hi, I'm Ankita 👋
+
+### Data Engineering • Machine Learning • Applied AI
+
+I’m a **McGill M.Sc. graduate** with 3+ years of industry experience building data systems, ML workflows, and automation. I like problems where the data is messy, the answer isn’t obvious, and engineering decisions actually matter.
+
+My work has taken me from **large-scale AML data pipelines at American Express**, to researching **LLM reliability and automated validation**, to designing an **AWS + ML platform for building retrofit cost estimation**.
+
+Along the way, I’ve learned that good AI is rarely just about the model — the data, validation, infrastructure, and product decisions around it matter just as much.
+
+📍 Montreal, Canada  
+🎓 M.Sc., McGill University — July 2026  
+📄 Research published at **IEEE RE 2026 – MoDRE**
+
+[About me](about.md) • [Explore my projects](projects.md)
+
 ---
-# About
-I’m a research-based Master’s student at **McGill University**, graduating **May–June 2026**, with **3 years of industry experience** building large-scale **data pipelines, ETL workflows, and reporting systems**. In my research, I build reliable ML workflows for **pattern discovery and validation** and evaluate the **capabilities and limitations of LLMs** for finding patterns in complex datasets. I’m also expanding my skills in **AI agent development** through certifications from **Google and Hugging Face**, and I’m looking for my next **industry role** where I can combine strong software fundamentals and AI with data-driven impact.  
-[More about me](about.md) • [Projects](projects.md)
 
-## What I can do
-- Build scalable **ETL and data pipelines**.
-- Turn messy datasets into structured insights.
-- Design **automation and validation workflows** to make results **trustworthy and reproducible**.
-- Explore data problems and tailor solutions with new ideas, because I believe **every dataset is unique**.
+# 🚀 Featured Work
 
-## Featured work
+## 🏗️ ML-Powered Retrofit Cost Estimator
 
-### 1) AML Reporting Pipelines at American Express
-Owned end-to-end delivery of AML reporting pipelines, including performance optimization and production deployments.  
-**Highlight:** Reduced a critical query runtime from **~3 hours to ~30 minutes** by migrating from **Hive to Spark** and partitioning execution.  
-**Links:** [Project details](projects.md#1-anti-money-laundering-data-pipelines-and-reporting-fintech-american-express-072021---072024)
+Designed an end-to-end **AWS data and ML platform** for the ReConstruct Initiative to estimate the cost of building retrofit projects.
 
-### 2) Pattern Discovery on Hierarchical YAML Data and Generic Pattern Validator Tool
-Built an end-to-end research pipeline to discover and validate patterns in large hierarchical YAML dataset and conducted tests for **42k+ DevOps pipeline files**, combining **LLM evaluation**, **statistical data mining (FP-Growth)**, and automated occurrence measurement. Developed a **generic pattern validator tool** that scales to large datasets and can be applied to any metamodel-based dataset for reliable, repeatable pattern occurrence checking.  
-**Links:** [Project details](projects.md#2-pattern-discovery-and-pattern-validator-tool-masters-research-mcgill-university-092024---042026) • [Case study](projects.md#mini-case-study-measuring-llm-hallucination-and-switching-to-statistical-mining)
+The interesting part? We had limited historical data, so the system had to be useful today while also being designed to improve as more projects were collected.
 
-### 3) Road Accident Detection Using Computer Vision
-Led my bachelor’s final-year ML project using **SSD MobileNet** for real-time accident detection, and published related work in the **International Journal of Mobile Computing Devices**.  
-**Links:** [Project details](projects.md#3-road-accident-detection-using-computer-vision-bachelors-final-year-project-mumbai-university-082020---032021) • [Publication](https://computers.journalspub.info/index.php?journal=JMCD&page=article&op=view&path%5B%5D=693)
+I worked across:
 
-## Skills
+**AWS data architecture → ETL → feature engineering → model experimentation → uncertainty estimation → Django/Docker deployment**
 
-### Programming Languages
-**Python**, **SQL**, **HQL**, **Unix/Shell**, **Java**
+I compared Bayesian Ridge Regression and Gaussian Process Regression and selected GPR after it delivered roughly **10% better predictive performance** while also providing useful uncertainty ranges.
 
-### Tools & Frameworks
-**Hive**, **Hadoop**, **Spark**, **MySQL**, **HDFS**, **AWS**, **GitHub**, **Jenkins**, **Postman**, **PuTTY**, **Microsoft Office**, **Eclipse**, **Xtext**, **Acceleo**, **Anaconda**, **Jupyter**, **Pandas**, **NumPy**, **LangChain**, **FP-Growth**
+Through better feature logic and data-quality handling, prediction accuracy improved from roughly **60% to 80%**.
 
-### Concepts
-**Data Science**, **Big Data Engineering**, **Data Analysis**, **Deep Learning**, **Large Language Models (LLMs)**, **Transformers**, **Clustering Techniques**, **Model-Driven Engineering (MDE)**, **Code Generation & Automation**, **CI/CD**, **DevOps**, **SDLC**, **Agile Methodologies**, **Object-Oriented Programming (OOP)**, **Troubleshooting**, **Information Systems**, **Prompt Engineering**, **Data Exploration**, **Linear Regression**, **Classification**, **Bias & Security**, **Retrieval Augmented generation**, **Dataframes**, **Data Mining**, **Quantization**, **Optimization**, **Attention Mechanism**, **AI Agents**, **Vector Databases**
+👉 [Read the project story](projects.md#-ml-powered-retrofit-cost-estimation-platform)
 
-### Professional Skills
-**Analytical Thinking**, **Data Storytelling**, **Business & Technical Communication**, **Adaptability**, **Collaborative Leadership**
+---
 
-## Contact
-Email: [ankitavyas1999@gmail.com](mailto:ankitavyas1999@gmail.com)  
-LinkedIn: [https://www.linkedin.com/in/ankitavyas77](https://www.linkedin.com/in/ankitavyas77)  
-GitHub: [github.com/AnkitaVyas77](https://github.com/AnkitaVyas77)
+## 🔬 Making LLM Discoveries Verifiable
+
+For my Master's research, I explored a question I find increasingly important:
+
+> **How do we know whether something discovered by an LLM is actually true?**
+
+I analyzed **42k+ DevOps YAML pipelines** using:
+
+**SBERT → K-Means → LLM prompting → FP-Growth → automated validation**
+
+When evaluation showed that many LLM-discovered patterns did not actually occur in the data, I built a statistical mining pipeline and a reusable validator framework to objectively verify them.
+
+The validator uses a domain-specific language and model-to-text transformation to automatically generate **Java validation programs**.
+
+📄 This research was published at **IEEE RE 2026 through the MoDRE workshop**.
+
+👉 [See how it works](projects.md#-pattern-discovery--automated-pattern-validation)
+
+---
+
+## ⚡ From 3 Hours to 30 Minutes
+
+At **TCS supporting American Express**, I spent three years working on large-scale AML data systems involving customer, merchant, fraud, and risk data.
+
+One production transformation over a multi-billion-row dataset was taking around **3 hours** and missing its SLA.
+
+After profiling the workload, optimizing the SQL, moving execution from Hive to Spark SQL, and distributing intermediate processing, runtime dropped to roughly:
+
+### **3 hours → 30 minutes ⚡**
+
+I also owned two major AML reporting workflows from requirements through production deployment.
+
+👉 [Read the case study](projects.md#-anti-money-laundering-data-platforms--reporting)
+
+---
+
+## 🚗 Computer Vision Before It Was Cool
+
+For my Bachelor's capstone, I led a team building a prototype for detecting road accidents from highway surveillance footage using **SSD MobileNet, TensorFlow, Python, and OpenCV**.
+
+It was my first experience taking an ML idea from dataset collection through experimentation and into a working end-to-end prototype.
+
+The related research was also published in the **International Journal of Mobile Computing Devices**.
+
+👉 [Project details](projects.md#-road-accident-detection-with-computer-vision)
+
+---
+
+# 🧰 My Toolkit
+
+### Data Engineering
+`Python` `SQL` `Spark` `PySpark` `Hive` `Hadoop` `HDFS` `ETL` `PostgreSQL`
+
+### Cloud & Engineering
+`AWS` `S3` `Glue` `Athena` `Lake Formation` `Docker` `Django` `Git` `GitHub` `Jenkins` `CI/CD`
+
+### Machine Learning & AI
+`scikit-learn` `Pandas` `NumPy` `LLMs` `SBERT` `Clustering` `FP-Growth` `RAG` `Prompt Engineering` `AI Agents`
+
+### Research & Language Engineering
+`Java` `Xtext` `Acceleo` `Model-Driven Engineering` `Code Generation`
+
+---
+
+# 💡 What I Enjoy
+
+- Building data systems that people can actually rely on
+- Figuring out why an ML model succeeds — or fails
+- Turning manual workflows into automation
+- Exploring LLM reliability and evaluation
+- Working across the full path from **raw data → system → useful product**
+- Learning technologies by building something with them
+
+---
+
+# 👋 Let's Connect
+
+I’m interested in opportunities across **Data Engineering, Machine Learning Engineering, Applied AI, and Data Science**, especially where I can take ownership of meaningful technical problems.
+
+📧 [ankitavyas1999@gmail.com](mailto:ankitavyas1999@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/ankitavyas77)  
+💻 [GitHub](https://github.com/AnkitaVyas77)
