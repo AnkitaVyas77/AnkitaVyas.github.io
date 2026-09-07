@@ -1,5 +1,3 @@
-# Hi, I'm Ankita 👋
-
 I’m a **McGill M.Sc. graduate** with 3+ years of industry experience building data systems, ML workflows, and automation. I like problems where the data is messy, the answer isn’t obvious, and engineering decisions actually matter.
 
 My work has taken me from **large-scale AML data pipelines at American Express**, to researching **LLM reliability and automated validation**, to designing an **AWS + ML platform for building retrofit cost estimation**.
