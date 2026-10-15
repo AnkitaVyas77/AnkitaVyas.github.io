@@ -5,7 +5,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-MAX_BODY_BYTES = 6000
+MAX_BODY_BYTES = 12000
 MAX_MESSAGES = 8
 MAX_MESSAGE_CHARS = 1200
 MAX_OUTPUT_TOKENS = 500
