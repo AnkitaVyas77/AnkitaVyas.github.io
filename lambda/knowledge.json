@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "name": "Ankita Vyas",
+    "professional_summary": "McGill M.Sc. graduate with experience across data engineering, machine learning, applied AI, and software engineering.",
+    "location": "Montreal, Canada",
+    "professional_interests": ["Data Engineering", "Machine Learning Engineering", "Applied AI", "Data Science"],
+    "work_preferences": "Interested in meaningful technical problems, ownership, and systems with measurable real-world impact."
+  },
+  "education_and_publications": [
+    {
+      "degree": "M.Sc., McGill University",
+      "completion": "July 2026",
+      "research": "A domain-specific language for pattern definition and automated validation through model-to-text transformation.",
+      "publication": "Published at IEEE International Requirements Engineering Conference 2026 through the MoDRE workshop."
+    },
+    {
+      "degree": "B.E. in Computer Engineering, University of Mumbai",
+      "completion": "2021"
+    },
+    {
+      "publication": "Road accident detection research published in the International Journal of Mobile Computing Devices."
+    }
+  ],
+  "experience": [
+    {
+      "role": "Lead Data Architect (R&D), ReConstruct Initiative at McGill University",
+      "period": "2026",
+      "work": "Designed an AWS-based data platform and ML-powered cost estimator for Canadian building retrofit projects. Worked across S3, Glue, Athena, data ingestion, data validation, feature engineering, model experimentation, uncertainty estimation, Docker, Django, and CI/CD."
+    },
+    {
+      "role": "Big Data Developer, Tata Consultancy Services supporting American Express",
+      "period": "2021–2024",
+      "work": "Built and maintained production AML data pipelines and reporting workflows using Spark, PySpark, Hive, SQL, Hadoop, HDFS, Python, Unix/Shell, Jenkins, and GitHub. Worked with customer, merchant, fraud, risk, and investigation data. Owned two major AML reporting workflows from requirements through production deployment."
+    }
+  ],
+  "projects": [
+    {
+      "name": "ML-powered retrofit cost estimation platform",
+      "details": "End-to-end AWS data and ML platform for estimating building retrofit costs from limited historical data. Compared Bayesian Ridge Regression and Gaussian Process Regression. GPR delivered approximately 10% better predictive performance on available data and provided useful prediction uncertainty ranges. Improved reported prediction accuracy from roughly 60% to 80% through feature logic and data-quality handling. Stack: AWS, S3, Glue, Athena, Lake Formation, PostgreSQL, Python, scikit-learn, Django, Docker, GitHub CI/CD."
+    },
+    {
+      "name": "Pattern discovery and automated pattern validation",
+      "details": "Master's research analyzing over 42,000 DevOps YAML pipeline files. Used Python preprocessing, SBERT embeddings, K-Means clustering, LLM prompts, FP-Growth, Eclipse Xtext, Acceleo, and Java validators. Created a Pattern Definition Language that generates Java validation programs to check whether discovered patterns occur in the data. The research became the M.Sc. thesis and was published at IEEE RE 2026 through MoDRE."
+    },
+    {
+      "name": "AML data platforms and reporting",
+      "details": "Production AML data engineering at TCS supporting American Express from 2021 to 2024. Optimized a transformation over a multi-billion-row table, reducing runtime from about three hours to about thirty minutes by profiling, optimizing SQL, moving execution from Hive to Spark SQL, and distributing intermediate processing."
+    },
+    {
+      "name": "Road accident detection with computer vision",
+      "details": "Bachelor's capstone team project using highway surveillance footage, SSD MobileNet, TensorFlow, Python, and OpenCV to detect vehicles and analyze potential accidents. Ankita was team lead. The work resulted in a research publication in the International Journal of Mobile Computing Devices."
+    }
+  ],
+  "skills": {
+    "data_engineering": ["Python", "SQL", "Spark", "PySpark", "Hive", "Hadoop", "HDFS", "ETL", "PostgreSQL"],
+    "cloud_and_engineering": ["AWS", "S3", "Glue", "Athena", "Lake Formation", "Docker", "Django", "Git", "GitHub", "Jenkins", "CI/CD"],
+    "machine_learning_and_ai": ["scikit-learn", "Pandas", "NumPy", "LLMs", "SBERT", "Clustering", "FP-Growth", "RAG", "Prompt Engineering", "AI Agents"],
+    "research_and_language_engineering": ["Java", "Xtext", "Acceleo", "Model-Driven Engineering", "Code Generation"]
+  },
+  "links": {
+    "email": "ankitavyas1999@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/ankitavyas77",
+    "github": "https://github.com/AnkitaVyas77"
+  }
+}

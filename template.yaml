@@ -1,0 +1,43 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Public portfolio Q&A endpoint for Ankita Vyas, backed by Gemini.
+
+Parameters:
+  AllowedOrigin:
+    Type: String
+    Default: https://ankitavyas77.github.io
+    Description: Exact site origin, with no trailing slash.
+
+Globals:
+  Function:
+    Runtime: python3.12
+    Timeout: 32
+    MemorySize: 256
+    Environment:
+      Variables:
+        ALLOWED_ORIGIN: !Ref AllowedOrigin
+        GEMINI_MODEL: gemini-3.5-flash-lite
+
+Resources:
+  PortfolioChatFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: lambda/
+      Handler: handler.lambda_handler
+      Description: Answers visitor questions using Ankita's published portfolio facts.
+      ReservedConcurrentExecutions: 3
+      FunctionUrlConfig:
+        AuthType: NONE
+        Cors:
+          AllowOrigins:
+            - !Ref AllowedOrigin
+          AllowMethods:
+            - POST
+          AllowHeaders:
+            - content-type
+          MaxAge: 600
+
+Outputs:
+  PortfolioChatUrl:
+    Description: Paste this URL into the data-chat-endpoint attribute in index.md.
+    Value: !GetAtt PortfolioChatFunctionUrl.FunctionUrl
