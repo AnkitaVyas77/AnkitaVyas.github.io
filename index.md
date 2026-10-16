@@ -1,116 +1,163 @@
-I’m a **McGill M.Sc. graduate** with 3+ years of industry experience building data systems, ML workflows, and automation. I like problems where the data is messy, the answer isn’t obvious, and engineering decisions actually matter.
-
-My work has taken me from **large-scale AML data pipelines at American Express**, to researching **LLM reliability and automated validation**, to designing an **AWS + ML platform for building retrofit cost estimation**.
-
-Along the way, I’ve learned that good AI is rarely just about the model — the data, validation, infrastructure, and product decisions around it matter just as much.
-
-📍 Montreal, Canada  
-🎓 M.Sc., McGill University — July 2026  
-📄 Research published at **IEEE RE 2026 – MoDRE**
-
-[About me](about.md) • [Explore my projects](projects.md)
-
 ---
-
-# 🚀 Featured Work
-
-## 🏗️ ML-Powered Retrofit Cost Estimator
-
-Designed an end-to-end **AWS data and ML platform** for the ReConstruct Initiative to estimate the cost of building retrofit projects.
-
-The interesting part? We had limited historical data, so the system had to be useful today while also being designed to improve as more projects were collected.
-
-I worked across:
-
-**AWS data architecture → ETL → feature engineering → model experimentation → uncertainty estimation → Django/Docker deployment**
-
-I compared Bayesian Ridge Regression and Gaussian Process Regression and selected GPR after it delivered roughly **10% better predictive performance** while also providing useful uncertainty ranges.
-
-Through better feature logic and data-quality handling, prediction accuracy improved from roughly **60% to 80%**.
-
-👉 [Read the project story](projects.md#-ml-powered-retrofit-cost-estimation-platform)
-
+layout: null
+title: Ankita Vyas | Data & AI Engineer
+description: I build data and AI systems people can trust.
+permalink: /
 ---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b2d">
+  <meta name="description" content="Ankita Vyas builds reliable data platforms, machine learning systems, and applied AI products.">
+  <meta property="og:title" content="Ankita Vyas | Data & AI Engineer">
+  <meta property="og:description" content="Turning messy data into reliable, useful systems.">
+  <meta property="og:type" content="website">
+  <title>Ankita Vyas | Data & AI Engineer</title>
+  <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+</head>
+<body data-chat-endpoint="">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="wordmark" href="#top" aria-label="Ankita Vyas home"><span class="wordmark-mark">AV</span><span>Ankita Vyas</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#journey">Experience</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="mailto:ankitavyas1999@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
 
-## 🔬 Making LLM Discoveries Verifiable
+  <main id="main">
+    <section class="hero section-shell" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> Data engineering · Machine learning · Applied AI</div>
+          <h1>I turn complex data into <em>systems people can trust.</em></h1>
+          <p class="hero-lede">I’m Ankita, a McGill M.Sc. graduate who enjoys making messy, real-world problems clearer—through thoughtful data engineering, practical ML, and verifiable AI.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="https://www.linkedin.com/in/ankitavyas77" target="_blank" rel="noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta"><span>Based in Montreal, Canada</span><span class="meta-separator">/</span><span>Open to meaningful technical work</span></div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of data flowing through an engineering system" role="img">
+          <div class="art-grid"></div>
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-node node-a"><span class="node-icon">01</span><span>raw data</span></div>
+          <div class="art-node node-b"><span class="node-icon">02</span><span>good questions</span></div>
+          <div class="art-node node-c"><span class="node-icon">03</span><span>useful systems</span></div>
+          <div class="art-core"><div class="core-ring"></div><div class="core-initials">AV</div><span>build · verify · improve</span></div>
+          <div class="art-caption"><span class="caption-line"></span> From data to decisions</div>
+          <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✦</span><span class="art-spark spark-three">·</span>
+        </div>
+      </div>
+      <div class="container proof-strip" aria-label="Career highlights">
+        <div class="proof-item"><strong>3h <span>→</span> 30m</strong><span>pipeline runtime</span></div>
+        <div class="proof-item"><strong>42k<span>+</span></strong><span>DevOps files studied</span></div>
+        <div class="proof-item"><strong>60% <span>→</span> 80%</strong><span>estimator accuracy</span></div>
+        <div class="proof-item"><strong>IEEE RE ’26</strong><span>MoDRE publication</span></div>
+      </div>
+    </section>
 
-For my Master's research, I explored a question I find increasingly important:
+    <section class="section section-work" id="work">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow section-kicker">Selected work</p><h2>Real problems, <em>carefully built.</em></h2></div>
+          <p class="section-intro">A few projects that show how I think: start with the data, make the result measurable, and build for the people who depend on it.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-topline"><span class="project-number">01 / ML PLATFORM</span><span class="project-icon" aria-hidden="true">↗</span></div>
+            <div class="project-visual visual-buildings"><span class="building building-one"></span><span class="building building-two"></span><span class="building building-three"></span><span class="visual-sun"></span><span class="visual-chart">estimate <b>+ range</b></span></div>
+            <p class="project-type">ReConstruct Initiative · McGill University · 2026</p>
+            <h3>Retrofit cost estimator</h3>
+            <p>Designed an AWS data and ML platform that estimates building retrofit costs and communicates uncertainty when project history is limited.</p>
+            <div class="tag-row"><span>AWS data platform</span><span>Gaussian processes</span><span>Django</span></div>
+            <div class="project-result"><strong>~10%</strong><span>better predictive performance than the baseline, with useful uncertainty ranges</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span class="project-number">02 / TRUSTWORTHY AI</span><span class="project-icon" aria-hidden="true">✳</span></div>
+            <div class="project-visual visual-patterns"><div class="pattern-line line-one"></div><div class="pattern-line line-two"></div><div class="pattern-line line-three"></div><span class="pattern-chip">LLM idea</span><span class="pattern-check">✓ verified</span></div>
+            <p class="project-type">Master’s research · McGill · 2024–2026</p>
+            <h3>Making AI discoveries verifiable</h3>
+            <p>Combined LLM-assisted discovery with FP-Growth and a DSL that generates Java validators to check patterns against real pipeline data.</p>
+            <div class="tag-row"><span>LLM evaluation</span><span>FP-Growth</span><span>Java code generation</span></div>
+            <a class="text-link" href="https://github.com/AnkitaVyas77">Research and code <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span class="project-number">03 / DATA ENGINEERING</span><span class="project-icon" aria-hidden="true">⌁</span></div>
+            <div class="project-visual visual-pipeline"><span class="pipeline-box">Hive</span><span class="pipeline-arrow">→</span><span class="pipeline-box pipeline-highlight">Spark SQL</span><span class="pipeline-arrow">→</span><span class="pipeline-box">SLA met</span><div class="pipeline-time"><strong>6×</strong><span>faster</span></div></div>
+            <p class="project-type">TCS supporting American Express · 2021–2024</p>
+            <h3>AML data at production scale</h3>
+            <p>Built and optimized AML pipelines and reporting workflows across customer, merchant, fraud, and risk data.</p>
+            <div class="tag-row"><span>PySpark</span><span>Hive</span><span>Hadoop</span></div>
+            <div class="project-result"><strong>3h → 30m</strong><span>for a multi-billion-row transformation</span></div>
+          </article>
+        </div>
+        <article class="project-card project-wide">
+          <div class="wide-copy"><p class="project-type">Bachelor’s capstone · University of Mumbai · 2020–2021</p><h3>Road accident detection with computer vision</h3><p>Led a team prototype using highway surveillance footage, SSD MobileNet, TensorFlow, and OpenCV to detect vehicles and analyze potential accidents. The work resulted in a research publication.</p><div class="tag-row"><span>TensorFlow</span><span>OpenCV</span><span>Team lead</span></div></div>
+          <div class="wide-stat"><span class="wide-stat-mark">CV</span><span>From dataset<br>to working prototype</span></div>
+        </article>
+      </div>
+    </section>
 
-> **How do we know whether something discovered by an LLM is actually true?**
+    <section class="section section-journey" id="journey">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow section-kicker">The path so far</p><h2>From large data to <em>grounded AI.</em></h2></div>
+          <p class="section-intro">Different domains, similar questions: can the data be trusted, can the system scale, and does it help someone make a better decision?</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-row"><div class="timeline-date">2026 <span>· McGill</span></div><div class="timeline-marker"></div><div class="timeline-content"><p class="timeline-role">Lead Data Architect (R&D)</p><p>Designed data architecture and an ML cost-estimation workflow for building retrofits. Worked across ingestion, feature engineering, model evaluation, uncertainty, and deployment.</p><div class="tag-row"><span>AWS</span><span>Python</span><span>ML systems</span></div></div></article>
+          <article class="timeline-row"><div class="timeline-date">2021–2024 <span>· TCS</span></div><div class="timeline-marker"></div><div class="timeline-content"><p class="timeline-role">Big Data Developer · American Express AML</p><p>Built production reporting pipelines, improved data quality, and optimized distributed workloads. Reduced a critical transformation from about three hours to thirty minutes.</p><div class="tag-row"><span>PySpark</span><span>Hive</span><span>HDFS</span></div></div></article>
+          <article class="timeline-row"><div class="timeline-date">2021 <span>· Mumbai</span></div><div class="timeline-marker"></div><div class="timeline-content"><p class="timeline-role">B.E. Computer Engineering</p><p>Led a computer-vision capstone project on road accident detection using highway footage.</p><div class="tag-row"><span>University of Mumbai</span><span>Computer vision</span></div></div></article>
+        </div>
+      </div>
+    </section>
 
-I analyzed **42k+ DevOps YAML pipelines** using:
+    <section class="section section-about" id="about">
+      <div class="container about-grid">
+        <div><p class="eyebrow section-kicker">A little about me</p><h2>Curious by nature.<br><em>Practical by design.</em></h2></div>
+        <div class="about-copy"><p>I’m a recent M.Sc. graduate from McGill University, working at the intersection of data engineering, machine learning, applied AI, and software engineering. I enjoy taking unclear problems and figuring out what will make a solution useful, reliable, and easier to improve.</p><p>My master’s research on LLM pattern discovery and automated validation was published at IEEE RE 2026 through the MoDRE workshop. The work sharpened a principle I bring to every AI project: a plausible answer is only a starting point; the system should help us verify it.</p><div class="toolbox"><span>Python</span><span>SQL</span><span>Spark</span><span>PySpark</span><span>AWS</span><span>PostgreSQL</span><span>Docker</span><span>Django</span><span>scikit-learn</span><span>LLMs</span><span>FP-Growth</span><span>Java</span><span>Xtext</span></div></div>
+      </div>
+    </section>
 
-**SBERT → K-Means → LLM prompting → FP-Growth → automated validation**
+    <section class="section section-contact" id="contact">
+      <div class="container contact-card">
+        <div><p class="eyebrow">Have a problem worth solving?</p><h2>Let’s build something <em>useful.</em></h2><p>I’m interested in thoughtful teams and technical work with real-world impact.</p></div>
+        <div class="contact-actions"><a class="button button-light" href="mailto:ankitavyas1999@gmail.com">Email Ankita <span aria-hidden="true">↗</span></a><a class="contact-secondary" href="https://www.linkedin.com/in/ankitavyas77" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a class="contact-secondary" href="https://github.com/AnkitaVyas77" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+        <div class="contact-orbit" aria-hidden="true"></div>
+      </div>
+    </section>
+  </main>
 
-When evaluation showed that many LLM-discovered patterns did not actually occur in the data, I built a statistical mining pipeline and a reusable validator framework to objectively verify them.
+  <footer class="site-footer"><div class="container footer-row"><a class="wordmark footer-wordmark" href="#top"><span class="wordmark-mark">AV</span><span>Ankita Vyas</span></a><span>Designed with curiosity in Montreal · 2026</span><a href="#top">Back to top ↑</a></div></footer>
 
-The validator uses a domain-specific language and model-to-text transformation to automatically generate **Java validation programs**.
-
-📄 This research was published at **IEEE RE 2026 through the MoDRE workshop**.
-
-👉 [See how it works](projects.md#-pattern-discovery--automated-pattern-validation)
-
----
-
-## ⚡ From 3 Hours to 30 Minutes
-
-At **TCS supporting American Express**, I spent three years working on large-scale AML data systems involving customer, merchant, fraud, and risk data.
-
-One production transformation over a multi-billion-row dataset was taking around **3 hours** and missing its SLA.
-
-After profiling the workload, optimizing the SQL, moving execution from Hive to Spark SQL, and distributing intermediate processing, runtime dropped to roughly:
-
-### **3 hours → 30 minutes ⚡**
-
-I also owned two major AML reporting workflows from requirements through production deployment.
-
-👉 [Read the case study](projects.md#-anti-money-laundering-data-platforms--reporting)
-
----
-
-## 🚗 Computer Vision Before It Was Cool
-
-For my Bachelor's capstone, I led a team building a prototype for detecting road accidents from highway surveillance footage using **SSD MobileNet, TensorFlow, Python, and OpenCV**.
-
-It was my first experience taking an ML idea from dataset collection through experimentation and into a working end-to-end prototype.
-
-The related research was also published in the **International Journal of Mobile Computing Devices**.
-
-👉 [Project details](projects.md#-road-accident-detection-with-computer-vision)
-
----
-
-# 🧰 My Toolkit
-
-### Data Engineering
-`Python` `SQL` `Spark` `PySpark` `Hive` `Hadoop` `HDFS` `ETL` `PostgreSQL`
-
-### Cloud & Engineering
-`AWS` `S3` `Glue` `Athena` `Lake Formation` `Docker` `Django` `Git` `GitHub` `Jenkins` `CI/CD`
-
-### Machine Learning & AI
-`scikit-learn` `Pandas` `NumPy` `LLMs` `SBERT` `Clustering` `FP-Growth` `RAG` `Prompt Engineering` `AI Agents`
-
-### Research & Language Engineering
-`Java` `Xtext` `Acceleo` `Model-Driven Engineering` `Code Generation`
-
----
-
-# 💡 What I Enjoy
-
-- Building data systems that people can actually rely on
-- Figuring out why an ML model succeeds — or fails
-- Turning manual workflows into automation
-- Exploring LLM reliability and evaluation
-- Working across the full path from **raw data → system → useful product**
-- Learning technologies by building something with them
-
----
-
-# 👋 Let's Connect
-
-I’m interested in opportunities across **Data Engineering, Machine Learning Engineering, Applied AI, and Data Science**, especially where I can take ownership of meaningful technical problems.
-
-📧 [ankitavyas1999@gmail.com](mailto:ankitavyas1999@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/ankitavyas77)  
-💻 [GitHub](https://github.com/AnkitaVyas77)
+  <button class="chat-launcher" id="chat-launcher" type="button" aria-expanded="false" aria-controls="chat-panel"><span class="launcher-spark" aria-hidden="true">✳</span><span>Ask about Ankita</span><span class="launcher-arrow" aria-hidden="true">↗</span></button>
+  <section class="chat-panel" id="chat-panel" aria-label="Ask Ankita's portfolio assistant" hidden>
+    <div class="chat-header"><div class="chat-avatar">AV</div><div class="chat-heading"><strong>Ask about Ankita</strong><span><i></i> Portfolio assistant</span></div><button id="chat-close" class="chat-close" type="button" aria-label="Close chat">×</button></div>
+    <div class="chat-intro"><span class="chat-welcome-mark">✳</span><p>Hi! I can help you explore Ankita’s experience, projects, research, and skills. What would you like to know?</p></div>
+    <div class="chat-suggestions" id="chat-suggestions">
+      <button type="button" data-question="What kind of work has Ankita done at American Express?">Her data engineering work</button>
+      <button type="button" data-question="Tell me about Ankita's retrofit cost estimator.">The retrofit estimator</button>
+      <button type="button" data-question="How did Ankita make her LLM research verifiable?">Her LLM research</button>
+    </div>
+    <div class="chat-messages" id="chat-messages" aria-live="polite" aria-relevant="additions text"></div>
+    <form class="chat-form" id="chat-form">
+      <label class="visually-hidden" for="chat-input">Ask a question about Ankita</label>
+      <input id="chat-input" name="message" maxlength="1200" autocomplete="off" placeholder="Ask me about Ankita…" required>
+      <button type="submit" aria-label="Send message"><span aria-hidden="true">↑</span></button>
+    </form>
+    <p class="chat-footnote">Answers are based on the information on this portfolio.</p>
+  </section>
+  <script src="{{ '/assets/js/portfolio.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/chat.js' | relative_url }}" defer></script>
+</body>
+</html>

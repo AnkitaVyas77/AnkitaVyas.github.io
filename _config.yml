@@ -1,3 +1,10 @@
-title: Ankita Vyas
-description: Data Engineering • Machine Learning • Applied AI | Turning Messy Data into Reliable, Useful Systems
-theme: jekyll-theme-Cayman
+title: Ankita Vyas | Data & AI Engineer
+description: Data engineering, machine learning, and applied AI portfolio
+theme: jekyll-theme-cayman
+url: https://ankitavyas77.github.io
+baseurl: /AnkitaVyas.github.io
+markdown: kramdown
+exclude:
+  - lambda
+  - template.yaml
+  - README.md
