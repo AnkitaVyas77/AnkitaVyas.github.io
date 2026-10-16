@@ -18,7 +18,7 @@ permalink: /
   <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
 </head>
-<body data-chat-endpoint="">
+<body data-chat-endpoint="https://ki2bclzkafxastasvh6crxklju0ctrxd.lambda-url.us-east-2.on.aws/">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container nav-wrap">
